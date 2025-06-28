@@ -72,3 +72,45 @@ requirement-analysis
 - Scalability: The system should be able to scale horizontally to handle increased traffic.
 - Usability: The application should have an intuitive UI/UX, making it easy for users to navigate and perform tasks.
 - Reliability: The system should have an uptime of 99.9% and recover quickly from any failures.
+
+📌 Use Case Diagrams
+Use Case Diagrams are a type of Unified Modeling Language (UML) diagram used in the requirement analysis phase to capture the interactions between actors (users or systems) and the system being developed. These diagrams help stakeholders visualize the functionality of the system, understand user behavior, and validate that all requirements have been captured.
+
+🎯 Benefits:
+Clarifies system scope and user interactions
+
+Enhances communication among stakeholders
+
+Assists in identifying and prioritizing system features
+
+Serves as a reference during testing and validation
+
+🛏️ Use Case Diagram for alx-booking-uc Booking System
+Actors:
+
+Guest
+
+Host
+
+Admin
+
+Use Cases:
+
+Register/Login
+
+Search Listings
+
+View Property Details
+
+Book Property
+
+Manage Booking
+
+List Property (Host only)
+
+Edit/Delete Listing (Host only)
+
+Approve Listing (Admin only)
+
+![Use Case Diagram](./alx-booking-uc.png)
+
